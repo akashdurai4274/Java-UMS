@@ -46,7 +46,7 @@ class UserFrame extends Frame implements ActionListener {
         Font titleFont = new Font("arial", Font.BOLD, 25);
         Font labelFont = new Font("arial", Font.PLAIN, 18);
         Font textFont = new Font("arial", Font.PLAIN, 18);
-        Color formColor = new Color(53, 59, 72);
+        Color formColor = new Color(0, 200, 200);
         this.setBackground(formColor);
         lblTitle = new Label("User Management System");
         lblTitle.setBounds(250, 40, 400, 50);
